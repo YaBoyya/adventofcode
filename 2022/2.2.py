@@ -15,7 +15,7 @@ while 1:
     except:
         break
 
-    if line[2] == "Z":
+    if line[2] == "Z":  # win
         total += 6
         if line[0] == "A":
             total += 2
@@ -23,7 +23,7 @@ while 1:
             total += 3
         elif line[0] == "C":
             total += 1
-    elif line[2] == "Y":
+    elif line[2] == "Y":  # draw
         total += 3
         if line[0] == "A":
             total += 1
@@ -31,7 +31,7 @@ while 1:
             total += 2
         elif line[0] == "C":
             total += 3
-    elif line[2] == "X":
+    elif line[2] == "X":  # lose
         if line[0] == "A":
             total += 3
         elif line[0] == "B":

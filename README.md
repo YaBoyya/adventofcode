@@ -1,2 +1,3 @@
 # adventofcode
-Advent of Code
+My submissions to Advent of Code event.
+
