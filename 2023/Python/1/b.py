@@ -12,7 +12,7 @@ words = [
 
 sum = 0
 
-with open("2023/Python/1/input.txt", "r") as f:
+with open("2023/input/1.txt", "r") as f:
     for line in f.readlines():
         digits = []
 
@@ -25,7 +25,6 @@ with open("2023/Python/1/input.txt", "r") as f:
                     digits.append(num)
 
         val = int(digits[0]+digits[-1])
-        print(line, val)
         sum += val
 
 print(sum)
